@@ -1,0 +1,9 @@
+// UserDefinedStruct VelocityBlend.VelocityBlend
+// Size: 0x10 (Inherited: 0x00)
+struct FVelocityBlend {
+	float F_3_2154ABAD4BD15DAC904154B63D704219; // 0x00(0x04)
+	float B_5_0A0855774CB13BB3E4B0A6847E7154F6; // 0x04(0x04)
+	float L_8_DFEBB8584D28F158D2562CA60EB07B6D; // 0x08(0x04)
+	float R_9_79E6E09B4A52B442B9FE6DB7192CFBEE; // 0x0c(0x04)
+};
+

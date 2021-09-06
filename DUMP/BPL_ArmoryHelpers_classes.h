@@ -1,0 +1,17 @@
+// BlueprintGeneratedClass BPL_ArmoryHelpers.BPL_ArmoryHelpers_C
+// Size: 0x28 (Inherited: 0x28)
+struct UBPL_ArmoryHelpers_C : UBlueprintFunctionLibrary {
+
+	void CanDismantle(struct FString ItemId, bool IsWeaponPart, struct UObject* __WorldContext, bool CanDismantle); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.CanDismantle // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void IsCosmeticPartBasedOnDefaultPart(struct FName CosmeticPartId, struct UObject* __WorldContext, bool IsBasedOnDefaultPart); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.IsCosmeticPartBasedOnDefaultPart // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void CanBeACatalogPart(enum class EHWWeaponPartType Type, struct FName CosmeticId, struct UObject* __WorldContext, bool IncludeInCatalog); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.CanBeACatalogPart // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void GetDismantlePrice(bool IsWeaponPart, struct FString ItemId, struct UObject* __WorldContext, int32_t Credits, int32_t Materials, enum class EHWFaction Faction); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.GetDismantlePrice // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void IsSkinOrCharm(enum class EHWWeaponPartType Type, struct UObject* __WorldContext, bool SkinOrCharm); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.IsSkinOrCharm // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void IsDefaultPart(struct FName PartId, struct UObject* __WorldContext, bool Found, bool IsDefault); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.IsDefaultPart // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void GetInstalledPartsForAssembledWeaponBySetId(struct FName SetId, struct FName AssembledWeaponId, struct UObject* __WorldContext, struct TArray<struct FHWPartWithSetId> Parts); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.GetInstalledPartsForAssembledWeaponBySetId // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void IsPartInstalledInSlot(struct FHWWeaponItem Weapon, enum class EHWWeaponPartType Type, struct UObject* __WorldContext, bool Installed, bool IsDefault); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.IsPartInstalledInSlot // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void LoadThumbnailForWeapon(struct FString VariationItemId, struct UObject* __WorldContext, struct UTexture2D* Texture); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.LoadThumbnailForWeapon // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x13c4ca0
+	void GetWeaponPartSetName(struct FName SetId, struct UObject* __WorldContext, struct FText Name); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.GetWeaponPartSetName // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+	void GetWeaponPartSetIcon(struct FName SetId, struct UObject* __WorldContext, struct UTexture2D* Texture); // Function BPL_ArmoryHelpers.BPL_ArmoryHelpers_C.GetWeaponPartSetIcon // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x13c4ca0
+};
+

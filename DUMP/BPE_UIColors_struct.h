@@ -1,0 +1,25 @@
+// UserDefinedEnum BPE_UIColors.BPE_UIColors
+enum class BPE_UIColors : uint8 {
+	NewEnumerator7,
+	NewEnumerator0,
+	NewEnumerator1,
+	NewEnumerator6,
+	NewEnumerator17,
+	NewEnumerator3,
+	NewEnumerator5,
+	NewEnumerator8,
+	NewEnumerator9,
+	NewEnumerator10,
+	NewEnumerator12,
+	NewEnumerator11,
+	NewEnumerator13,
+	NewEnumerator14,
+	NewEnumerator15,
+	NewEnumerator16,
+	NewEnumerator18,
+	NewEnumerator19,
+	NewEnumerator20,
+	NewEnumerator21,
+	BPE_MAX,
+};
+

@@ -1,0 +1,67 @@
+// WidgetBlueprintGeneratedClass WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C
+// Size: 0x4a8 (Inherited: 0x268)
+struct UWBP_Armory2_Popup_Params_C : UHWWidgetBase {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x268(0x08)
+	struct UCanvasPanel* BlueprintPage; // 0x270(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* BP_PG_Ammo; // 0x278(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* BP_PG_Efficiency; // 0x280(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* BP_PG_Handling; // 0x288(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* BP_PG_HitCapability; // 0x290(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* BP_PG_Stealth; // 0x298(0x08)
+	struct UWBP_MainButton_C* BPCloseButton; // 0x2a0(0x08)
+	struct UListView* CodeList; // 0x2a8(0x08)
+	struct UScrollBox* CodeList_Codes; // 0x2b0(0x08)
+	struct UOverlay* CodeList_NoCodes; // 0x2b8(0x08)
+	struct UWidgetSwitcher* ContentSwitcher; // 0x2c0(0x08)
+	struct UImage* Image_408; // 0x2c8(0x08)
+	struct UImage* Image_518; // 0x2d0(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* Item_PG_Ammo; // 0x2d8(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* Item_PG_Efficiency; // 0x2e0(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* Item_PG_Handling; // 0x2e8(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* Item_PG_HitCapability; // 0x2f0(0x08)
+	struct UWBP_Armory2_Parameter_Group_C* Item_PG_Stealth; // 0x2f8(0x08)
+	struct UWBP_MainButton_C* ItemCloseButton; // 0x300(0x08)
+	struct UCanvasPanel* ItemPage; // 0x308(0x08)
+	struct UWBP_RichTextLabel_C* Nopoints; // 0x310(0x08)
+	struct UWBP_MainButton_C* PerformUpgradesButton; // 0x318(0x08)
+	struct UWBP_RichTextLabel_C* PointsRemainingAmount; // 0x320(0x08)
+	struct UWBP_RichTextLabel_C* PointsRemainingText; // 0x328(0x08)
+	struct UWBP_MainButton_C* ReprogramButton; // 0x330(0x08)
+	struct UWBP_CurrencyCost_C* ReprogrammingCost; // 0x338(0x08)
+	struct UWBP_MainButton_C* ResetUpgradePointsButton; // 0x340(0x08)
+	struct UWBP_RichTextLabel_C* SelectedCode_LowRarityState; // 0x348(0x08)
+	struct UHorizontalBox* SelectedCode_ValidState; // 0x350(0x08)
+	struct UWidgetSwitcher* SelectedCodeStateSwitcher; // 0x358(0x08)
+	struct UWBP_MainButton_C* SellCodeButton; // 0x360(0x08)
+	struct UWBP_CurrencyCost_C* UpgradeCost; // 0x368(0x08)
+	struct UWBP_Box_C* WBP_Box; // 0x370(0x08)
+	struct UWBP_RichTextLabel_C* WBP_Explanation; // 0x378(0x08)
+	struct UWBP_RichTextLabel_C* WBP_Heading; // 0x380(0x08)
+	struct UWBP_ScreenHeader_C* WBP_ScreenHeader; // 0x388(0x08)
+	struct UWBP_ScreenHeader_C* WBP_ScreenHeader_2; // 0x390(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_3; // 0x398(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_Codes; // 0x3a0(0x08)
+	struct UHWArmoryItem* BlueprintArmoryItem; // 0x3a8(0x08)
+	struct UHWArmoryWeaponItem* WeaponItem; // 0x3b0(0x08)
+	struct UHWWeaponParameters* WeaponParameters; // 0x3b8(0x08)
+	struct UHWWeaponParameters* WeaponParametersWithSelectedCode; // 0x3c0(0x08)
+	struct UObject* CurrentlySelectedCode; // 0x3c8(0x08)
+	int32_t CurrentlySelectedCodeIndex; // 0x3d0(0x04)
+	char pad_3D4[0x4]; // 0x3d4(0x04)
+	struct TArray<enum class EHWCraftingParameter> CurrentUpgrades; // 0x3d8(0x10)
+	int32_t MaxUpgradePoints; // 0x3e8(0x04)
+	int32_t SpentUpgradePoints; // 0x3ec(0x04)
+	struct TMap<enum class EHWCraftingParameter, struct UWBP_Armory2_Parameter_Bar_C*> Item_ParameterBars; // 0x3f0(0x50)
+	struct TMap<enum class EHWCraftingParameter, struct UWBP_Armory2_Parameter_Bar_C*> BP_ParameterBars; // 0x440(0x50)
+	struct FMulticastInlineDelegate OnClosed; // 0x490(0x10)
+	struct UHWWeaponParameters* UpgradedParameters; // 0x4a0(0x08)
+
+	void OnPlayerDetailsChanged(struct FHWPlayerDetails Data); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnPlayerDetailsChanged // (BlueprintCosmetic|Event|Public|HasOutParms|BlueprintEvent) // @ game+0x13c4ca0
+	void OnPlayerInventoryChanged(struct FHWPlayerInventory Data); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnPlayerInventoryChanged // (BlueprintCosmetic|Event|Public|HasOutParms|BlueprintEvent) // @ game+0x13c4ca0
+	void OnPlayerMissionChanged(struct FHWPlayerMission Data); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnPlayerMissionChanged // (BlueprintCosmetic|Event|Public|HasOutParms|BlueprintEvent) // @ game+0x13c4ca0
+	void OnPlayerProgressionChanged(struct FHWPlayerProgression Data); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnPlayerProgressionChanged // (BlueprintCosmetic|Event|Public|HasOutParms|BlueprintEvent) // @ game+0x13c4ca0
+	void OnPlayerStatsChanged(struct FHWPlayerStats Data); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnPlayerStatsChanged // (BlueprintCosmetic|Event|Public|HasOutParms|BlueprintEvent) // @ game+0x13c4ca0
+	void ExecuteUbergraph_WBP_Armory2_Popup_Params(int32_t EntryPoint); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.ExecuteUbergraph_WBP_Armory2_Popup_Params // (Final|UbergraphFunction|HasDefaults) // @ game+0x13c4ca0
+	void OnClosed__DelegateSignature(); // Function WBP_Armory2_Popup_Params.WBP_Armory2_Popup_Params_C.OnClosed__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x13c4ca0
+};
+

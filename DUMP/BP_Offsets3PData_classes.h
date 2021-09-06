@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass BP_Offsets3PData.BP_Offsets3PData_C
+// Size: 0xd0 (Inherited: 0x28)
+struct UBP_Offsets3PData_C : UObject {
+	struct UCurveVector* IK_Master_LeanL; // 0x28(0x08)
+	struct UCurveVector* IK_Master_Center; // 0x30(0x08)
+	struct UCurveVector* IK_Master_LeanR; // 0x38(0x08)
+	struct UCurveVector* IK_PoleL_LeanL; // 0x40(0x08)
+	struct UCurveVector* IK_PoleL_Center; // 0x48(0x08)
+	struct UCurveVector* IK_PoleL_LeanR; // 0x50(0x08)
+	struct UCurveVector* IK_PoleR_LeanL; // 0x58(0x08)
+	struct UCurveVector* IK_PoleR_Center; // 0x60(0x08)
+	struct UCurveVector* IK_PoleR_LeanR; // 0x68(0x08)
+	struct UCurveVector* IK_ClavicleL_LeanL; // 0x70(0x08)
+	struct UCurveVector* IK_ClavicleL_Center; // 0x78(0x08)
+	struct UCurveVector* IK_ClavicleL_LeanR; // 0x80(0x08)
+	struct UCurveVector* IK_ClavicleR_LeanL; // 0x88(0x08)
+	struct UCurveVector* IK_ClavicleR_Center; // 0x90(0x08)
+	struct UCurveVector* IK_ClavicleR_LeanR; // 0x98(0x08)
+	struct UCurveVector* IK_Master_LeanLeft_IsAiming; // 0xa0(0x08)
+	struct UCurveVector* IK_Master_Center_IsAiming; // 0xa8(0x08)
+	struct UCurveVector* IK_Master_LeanRight_IsAiming; // 0xb0(0x08)
+	struct UCurveVector* Head_Left_IsAiming; // 0xb8(0x08)
+	struct UCurveVector* Head_Center_IsAiming; // 0xc0(0x08)
+	struct UCurveVector* Head_Right_IsAiming; // 0xc8(0x08)
+};
+
